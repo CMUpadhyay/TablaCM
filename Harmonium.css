@@ -1,0 +1,56 @@
+/* body{
+    margin-left: 5%;
+    margin-right: 5%;
+    
+} */
+.H{
+    text-align: center;
+    font-size: 3rem;
+}
+.container{
+    margin-top: 30px;
+}
+.container1{
+    display: flex;
+    gap: 8px;
+    
+}
+.container2{
+    display: flex;
+    gap: 8px;
+    margin-top: 10px;
+}
+.Harmony{
+    height: 200px;
+    width: 200px;
+    background-color: white;
+    /* Img */
+}
+.harmonium{
+    border: 1px solid lightgray;
+    border-radius: 12px;
+    padding: 5px;
+}
+.Buynow,.add{
+    width:100px;
+    padding: 12px 10px;
+    background-color: black;
+    border-radius: 14px;
+    color: white;
+
+}
+.s,.price{
+    font-size: 20px;
+    color: red;
+}
+.btn1{
+    width: 30%;
+    padding: 15px 10px;
+    font-size: 25px;
+    background-color: black;
+    border-radius: 28px;
+    color: white;
+    margin-top: 25px ;
+    transform: translate(120%,0%);
+}
+

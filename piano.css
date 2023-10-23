@@ -1,0 +1,53 @@
+.h{
+    text-align: center;
+    font-size: 3rem;
+}
+.container{
+    margin-top: 30px;
+}
+.container1{
+    display: flex;
+    gap: 8px;
+}
+.container2{
+    display: flex;
+    gap: 8px;
+    margin-top: 25px;
+}
+.piano{
+    border: 1px solid grey;
+    
+}
+.p1,.price{
+    margin-left: 5px;
+}
+.p{
+    height: 195px;
+    width: 195px;
+}
+.price{
+    color: chocolate;
+    font-size: 20px;
+}
+.btn{
+    margin-left: 5px;
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    border-radius: 14px;
+    position: static;
+}
+.contack{
+    width: 25%;
+    padding: 15px 10px;
+    background-color: black;
+    color: white;
+    font-size: 22px;
+    border-radius: 20px;
+    margin-top: 10px;
+    margin-left: 35%;
+}
+.A{
+    color: white;
+}

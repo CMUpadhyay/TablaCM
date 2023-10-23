@@ -1,0 +1,135 @@
+*{
+    font-family: 'Oswald', sans-serif;
+}
+body{
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 5%;
+    padding-right:5% ;
+}
+.Instrumentimg{
+    display: flex;
+    height: 60px;
+    gap: 8px;
+}
+.Tabla{
+    border-radius: 80%;
+}
+.Piano{
+    height: 50% ;
+}
+.ser{
+    transform: translate(590px,0px);
+}
+.t1,.t2,.t3,.t4,.t5,.t6,.t7,.t8{
+    height: 200px;
+    width: 350px;
+    border: 1px solid lightgray;
+    border-radius: 14px;
+}
+.TablaSection{
+    display: flex;
+    transform: translate(-120px,50px);
+
+}
+.TablaSection2{
+    transform: translate(500px,0px);
+}
+/* .tabla1,.tabla2,.tabla3,.tabla4,.tabla5,.tabla6,.tabla7,.tabla8{
+    
+} */
+.btn{
+    font-size: 20px;
+    padding: 20px 30px;
+    border: 1px solid lightgray;
+    border-radius: 14px;
+    background-color:black;
+    color: white;
+    transform: translate(390%,80%);
+    position: sticky;
+}
+.h2{
+    transform: translate(650px,-70px);
+}
+.a1{
+    color: white;
+}
+.h,.t,.g,.p{
+    transform: translate(0px,20px);
+    color: black;
+}
+.Buynow,.add{
+    width: 25%;
+    background-color: black;
+    color: white;
+    padding: 12px 10px;
+    border-radius: 12px;
+    margin-bottom: 10px;
+}
+@media (max-width:600px) {
+    body{
+        background-color: lightblue;
+    }
+    .Instrumentimg{
+        display: flex;
+        height: 60px;
+        gap: 8px;
+        overflow: scroll;
+    }
+    .Tabla{
+        border-radius: 80%;
+    }
+    .Piano{
+        height: 50% ;
+    }
+    .ser{
+        transform: translate(590px,0px);
+    }
+    .t1,.t2,.t3,.t4,.t5,.t6,.t7,.t8{
+        height: 200px;
+        width: 350px;
+        border: 1px solid lightgray;
+        border-radius: 14px;
+    }
+    .TablaSection{
+        
+        transform: translate(-120px,50px);
+    
+    }
+    /* .TablaSection2{
+        transform: translate(500px,0px);
+    } */
+    /* .tabla1,.tabla2,.tabla3,.tabla4,.tabla5,.tabla6,.tabla7,.tabla8{
+        
+    } */
+    .btn{
+        font-size: 20px;
+        padding: 20px 30px;
+        border: 1px solid lightgray;
+        border-radius: 14px;
+        background-color:black;
+        color: white;
+        transform: translate(390%,80%);
+        position: sticky;
+    }
+    .h2{
+        transform: translate(650px,-70px);
+    }
+    .a1{
+        color: white;
+    }
+    .h,.t,.g,.p{
+        transform: translate(0px,20px);
+        color: black;
+    }
+    .Buynow,.add{
+        width: 25%;
+        background-color: black;
+        color: white;
+        padding: 12px 10px;
+        border-radius: 12px;
+        margin-bottom: 10px;
+    }   
+}
+
+
